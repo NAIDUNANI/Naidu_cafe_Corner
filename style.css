@@ -1,0 +1,612 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#back_image{
+    background-image: url(./coffee_pics/coffee.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+#back_image2{
+    background-image: url(./coffee_pics/contact_background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+#back_image3{
+    background-image: url(./coffee_pics/about_background.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+#header{
+    padding: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#menu{
+    margin-right: 3rem;
+    text-decoration: none; 
+    color: white;
+}
+#menu:hover{
+    color: burlywood;
+}
+#cart_logo{
+    margin-right: 2rem;
+}
+#menu_options{
+    color: aliceblue;
+    font-size: 20px;
+    vertical-align: middle;
+}
+#main_head{
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    color: aliceblue;
+    font-size: 7rem;
+    letter-spacing: 1rem;
+}
+#shop_button{
+    border: 3px solid white;
+    width: 8rem;
+    height: 3rem;
+    vertical-align: middle;
+}
+#shop_button:hover{
+    background-color: burlywood;
+}
+#shop_text{
+    color: white;
+}
+#second_head{
+    font-size: 3.5rem; 
+    padding-top: 5rem; 
+    margin-bottom: 1rem;
+}
+#coffee_types_divs{
+    width: 250px;
+}
+#types_pics{
+    width: 250px;
+    border-radius: 20px;
+}
+#coffee_types{
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem;
+    place-items: center;
+}
+#third_section{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/new-new-h1-bacground-img-3.jpg);
+    background-size: cover;
+    height: 130vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#third_head{
+    font-size: 3.5rem; 
+    padding-top: 4rem; 
+    margin-bottom: 1rem;
+}
+#third_pics{
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem;
+}
+#third_sec_pic{
+    width: 400px;
+}
+#third_pic_text{
+    color: rgb(124, 124, 124); 
+    width: 400px;
+}
+#c1{
+    font-weight: 400; 
+    font-size: 22px;
+}
+#read {
+    color: black;
+    text-decoration: none;
+}
+#read:hover{
+    color: burlywood;
+}
+#fourth_section{
+    place-items: center;
+    justify-content: center;
+    display: flex;
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+#fifth_section{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+}
+#fifth_divs{
+    margin-right: 3rem;
+    display: inline-block;
+}
+#fifth_sub_heads{
+    font-size: 80px;
+    margin-bottom: 0;
+    color: rgb(173, 156, 112);
+    font-family: Papyrus;
+}
+
+#sixth_section{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+#sixth_head{
+    padding-top: 4rem;
+    font-size: 3.5rem;
+    margin-bottom: 1rem;
+}
+#cart_adding{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#img1{
+    width: 300px;
+}
+#cart_button1{ 
+    display: none;
+    position: relative;
+    top: -16rem;
+    left: 4.6rem;
+    width: 9rem;
+    height: 3rem;
+    transform: translate(-50%, -50%); 
+    background-color: #997755;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#img1:hover ~ #cart_button1{
+    display: block;
+}
+#img1:hover{
+    opacity: 0.7;
+}
+#sixth_sub_head{
+    font-weight: 100;
+}
+#sixth_sub_head:hover{
+    color: rgb(173, 156, 112);
+}
+#seventh_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#seventh_head{
+    padding-top: 3.45rem;
+    font-size: 3.5rem;
+}
+#gallery_pics{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+#pic1{
+    margin: 0.7rem;
+}
+#contact_div{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#contact_div2{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/p2-background-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+}
+#contact_text{
+    font-size: 30px;
+}
+#contact_button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    height: 2.5rem;
+    background-color: rgb(188, 161, 127);
+}
+#contact_button:hover{
+    background-color: black;
+}
+#footer_section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: 
+        linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), /* Light black overlay */
+        url('./coffee_pics/footer_back.jpg');
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#foot_logo{
+    margin-top: 3rem;
+}
+#foot_text{
+    width: 400px; 
+    color: rgb(168, 168, 168);
+}
+#foot_email{
+    padding-left: 20px;
+    width: 210px;
+    color: rgb(168, 168, 168);
+    height: 35px;
+    border: 2px solid white;
+    background: transparent;
+}
+svg{
+    vertical-align: middle;
+    width: 50px;
+    height: 40px;
+    position: relative;
+    left: -5px;
+    background-color: white;
+}
+svg:hover{
+    background-color: rgb(178, 164, 146);
+}
+
+#contact_head{
+    color: white;
+    font-size: 100px;
+    padding-top: 4rem;
+    letter-spacing: 1rem;
+}
+#contact_part2{
+    display: flex;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+#contact_main_head{
+    margin-left: 5rem;
+    padding-top: 4rem;
+}
+#contact_para{
+    margin-left: 5rem; 
+    width: 35rem; 
+    color: rgb(124, 124, 124); 
+    font-size: 20px;
+}
+li{
+    vertical-align: middle;
+    list-style: none;
+    margin-left: 5rem;
+    color: rgb(124, 124, 124);
+    font-size: 20px;
+}
+form{
+    padding-top: 5.5rem;
+    padding-left: 3rem;
+}
+#name,#email{
+    height: 3rem;
+    width: 18rem;
+    padding-left: 1rem;
+    font-size: 17px;
+    margin: 1rem;
+}
+#subject{
+    height: 3rem;
+    width: 39.9rem;
+    padding-left: 1rem;
+    font-size: 17px;
+    margin: 1rem;
+}
+#message{
+    width: 39.9rem;
+    height: 5rem;
+    margin: 1rem;
+    padding-left: 1rem;
+    font-size: 17px;
+}
+#name:focus,#email:focus,#subject:focus,#message:focus{
+    outline: none;
+}
+#sent_button{
+    width: 10rem;
+    height: 3rem;
+    margin: 1rem;
+    background-color: burlywood;
+    border: none;
+    color: white;
+}
+#sent_button:hover{
+    background-color: black;
+}
+#about_us{
+    background-image: url(https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-bacground-img-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+#about_text{
+    width: 60rem;
+}
+
+@media screen and (max-width : 960px) {
+    #coffee_types{
+        display: flex;
+        flex-direction: column;
+    }
+    #third_pics{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #third_section{
+        height: 240vh;
+    }
+    #pics{
+        padding-top: 1rem;
+    }
+    #fourth_section{
+        display: flex;
+        flex-wrap: wrap;
+        height: 35vh;
+        background-attachment: scroll;
+    }
+    #img_logo{
+        width: 250px;
+    }
+    #fifth_section{
+        height: 100vh;
+    }
+    #sixth_section{
+        height: 235vh;
+    }
+    #cart_adding{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #contact_div{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 45vh;
+    }
+    #contact_div2{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        height: 45vh;
+    }
+    #contact_text{
+        margin-left:0.7rem;
+    }
+    #foot_text{
+        width: 300px;
+    }
+    #contact_main_head{
+        margin-left: 0rem;
+        font-size: 1.5rem;
+    }
+    #contact_para{
+        margin-left: 0rem; 
+        width: 35rem; 
+        font-size: 15px;
+    }
+    li{
+        margin-left: 0rem;
+        font-size: 15px;
+    }
+    form{
+        padding-top: 3rem;
+        padding-left: 0rem;
+    }
+    #name,#email{
+        height: 2rem;
+        width: 15rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #subject{
+        height: 2rem;
+        width: 32.5rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #message{
+        height: 8rem;
+        width: 32.5rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #sent_button{
+        width: 10rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
+    #about_us{
+        height: 110vh;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+    }
+    #about_text{
+        width: 40rem;
+    }
+}
+
+@media screen and (max-width : 460px) {
+    #my_logo{
+        width: 50px;
+    }
+    #header{
+        padding: 0.1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;   
+    }
+    #menu_options{
+        font-size: 15px;
+    }
+    #menu{
+        margin-right: 0.5rem;
+    }
+    #cart_logo{
+        width: 25px;
+        margin-right: 0.5rem;
+    }
+    #my_logo_2{
+        padding-top: 7rem;
+        width: 200px;
+    }
+    #main_head{
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        font-size: 2rem;
+        letter-spacing: 0.5rem;
+    }
+    #second_head{
+        font-size: 2rem;
+    }
+    #coffee_types_divs{
+        width: 200px;
+    }
+    #types_pics{
+        width: 200px;
+    }
+    #third_head{
+        font-size: 2rem;
+    }
+    #third_pics{
+        padding: 2rem;
+    }
+    #third_sec_pic{
+        width: 250px;
+    }
+    #third_pic_text{
+        width: 250px;
+    }
+    #third_section{
+        height: 230vh;
+    }
+    #fifth_section{
+        height: 170vh;
+    }
+    #fifth_divs{
+        margin-left: 3rem;
+    }
+    #sixth_section{
+        height: 140vh;
+    }
+    #sixth_head{
+        font-size: 2rem;
+    }
+    #img1,#img2,#img3,#img4{
+        width: 200px;
+    }
+    #pic1{
+        width: 320px;
+    }
+    #seventh_head{
+        font-size: 2rem;
+    }
+    #contact_head{
+        padding-top: 13rem;
+        font-size: 2rem;
+        letter-spacing:0.5rem;
+    }
+    #contact_main_head{
+        margin-left: 0rem;
+        font-size: 1.5rem;
+    }
+    #contact_para{
+        margin-left: 0rem; 
+        width: 19rem; 
+        font-size: 15px;
+    }
+    li{
+        margin-left: 0rem;
+        font-size: 15px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding-top: 5.5rem;
+        padding-left: 0rem;
+    }
+    #name,#email{
+        height: 2rem;
+        width: 18rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #subject{
+        height: 2rem;
+        width: 18rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #message{
+        height: 8rem;
+        width: 18rem;
+        padding-left: 1rem;
+        font-size: 17px;
+        margin: 0.5rem;
+    }
+    #sent_button{
+        width: 10rem;
+        height: 3rem;
+        margin: 0.5rem;
+    }
+    #about_us{
+        height: 140vh;
+        padding-top: 0rem;
+        padding-bottom: 0rem;
+        font-size: 20px;
+    }
+    #about_text{
+        width: 19rem;
+    }
+}
+@media screen and (max-width : 400px) {
+    #sixth_section{
+        height: 200vh;
+    }
+    #about_us{
+        height: 150vh;
+    }
+    
+}
