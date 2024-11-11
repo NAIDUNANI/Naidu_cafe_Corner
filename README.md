@@ -1,4 +1,4 @@
-![{FC0AB371-6517-45F3-A8EE-8803A2BED6C7}](https://github.com/user-attachments/assets/d8fba8f1-3310-41fa-a15e-4e45e1ae836e)# Naidu Cafe Corner
+# Naidu Cafe Corner
 
 ## Description
 Naidu Cafe Corner is a user-friendly frontend website that gives visitors a taste of the cafe's unique offerings. The website is designed to provide an engaging and visually appealing experience with information about the cafe, its menu, and contact details.
